@@ -9,7 +9,6 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.myapplication.Chat;
 import com.example.myapplication.R;
 import com.example.myapplication.bean.User;
 

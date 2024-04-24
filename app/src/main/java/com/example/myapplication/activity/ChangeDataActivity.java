@@ -115,7 +115,6 @@ public class ChangeDataActivity extends AppCompatActivity {
                         Toast.makeText(ChangeDataActivity.this,message,Toast.LENGTH_LONG).show();
                     }
                 });
-
             }
         });
     }
