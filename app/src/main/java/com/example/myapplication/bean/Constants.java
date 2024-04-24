@@ -12,7 +12,7 @@ public class Constants {
     public static final String contact = "user/list";
     public static final String messageList = "/message/messageList";
     public static final String receiveMessage = "/message/messageListBySession";
-    public static final String addFriend = "/bootdemo/friend";
+    public static final String addFriend = "/friend/send";
 
     public static final String send = "/message/send";
 }

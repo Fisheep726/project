@@ -44,11 +44,10 @@ public class AddFriendActivity extends AppCompatActivity {
 
     public void addFriend(Integer receiverId,String receiverName){
         Map<String,String> params =  new HashMap<>();
-        params.put("receiveUserId",receiverId+"");
-        params.put("receiveUserName",receiverName);
-        params.put("sendUserId",UserManager.getUser().getId() + "");
-        params.put("sendUserName",UserManager.getUser().getUsername() + "");
-        Toast.makeText(AddFriendActivity.this,UserManager.getUser().getUsername() + "",Toast.LENGTH_LONG).show();
+        params.put("receive_user_id",receiverId+"");
+        params.put("receive_user_name",receiverName);
+        params.put("send_user_id",UserManager.getUser().getId() + "");
+        params.put("send_user_name",UserManager.getUser().getUsername() + "");
         HttpUtil.getInstance().post(Constants.addFriend, params, User.class, new ResultListener<User>(){
 
             @Override
